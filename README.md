@@ -43,8 +43,9 @@ networking代理封装
         NSLog(@"%@",dicR);
         
     }
-    
 }
+
+
 -(void)netWorkRequestFailed:(NSError*)error userInfo:(NSDictionary *)userInfo parameters:(NSDictionary *)getparameters
 {
 
